@@ -27,7 +27,7 @@ void main() {
 
         for (j = i; j < i + w && j < n; j++) {
 
-            // loss condition updated for 0–1 probability
+            // loss condition updated for 0â€“1 probability
             float r = (float)rand() / RAND_MAX;
 
             if (r < loss) {
